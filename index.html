@@ -1,9 +1,193 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <a href="trust:///add_asset?asset=c60_t0x514910771af9ca656af840dff83e8264ecf986ca">کونی کار کن</a>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Download Trust Wallet | Trust Wallet</title>
+<meta property="og:title" content="Download Trust Wallet | Trust Wallet" />
+<meta name="description" content />
+<meta property="og:description" content />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://trustwallet.com/assets/images/media/preview/horizontal_blue.png" />
+<meta name="twitter:creator" content="@trustwalletapp" />
+<meta property="og:locale" content="en" />
+<meta property="og:image" content="https://trustwallet.com/assets/images/media/preview/horizontal_blue.png" />
+<meta property="og:type" content="website" />
+<link rel="canonical" href="https://trustwallet.com/deeplink/" />
+<meta property="og:url" content="https://trustwallet.com/deeplink/" />
+<meta property="og:site_name" content="Trust Wallet" />
+<meta property="al:ios:app_name" content="Trust Wallet" />
+<meta property="al:ios:app_store_id" content="1288339409" />
+<meta property="al:ios:url" content="trust://" />
+<meta property="al:android:app_name" content="Trust Wallet" />
+<meta property="al:android:package" content="com.wallet.crypto.trustapp" />
+<meta property="al:android:url" content="https://trustwallet.com" />
+<link rel="shortcut icon" href="/assets/images/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png" />
+<meta name="apple-itunes-app" content="app-id=1288339409,affiliate-data=11l7ss">
+<meta name="theme-color" content="#3375BB">
+<script type="application/ld+json">
+    {
+      "description": "",
+      "@type": "WebPage",
+      "url": "https://trustwallet.com/deeplink/",
+      "headline": "Download Trust Wallet | Trust Wallet",
+      "@context": "https://schema.org"
+    }
+  </script><script async defer data-domain="trustwallet.com" src="https://analytics.trustwallet.com/js/plausible.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
+<script type="application/javascript">
+    document.addEventListener("DOMContentLoaded", function(event) {
+      document.getElementById('navbarToggle').addEventListener('click', function() {
+        var el = document.getElementById('navbarSupportedContent');
+        var toggled = window.getComputedStyle(el).display == 'block';
+        if (toggled) {
+          el.style.display = "none";
+        } else {
+          el.style.display = "block";
+        }
+      })
+      //Add Huawei download button based on device.
+      var result = new UAParser().getResult();
+      var apple = document.getElementsByClassName("apple");
+      var huawei = document.getElementsByClassName("huawei");
+      var download = document.getElementsByClassName("downloadapp-native");
 
+      if (result.os.name == "Android") {
+        for (var i = 0; i < huawei.length; i++) {
+          huawei[i].classList.remove("hidden");
+          apple[i].classList.add("hidden");
+        }
+        // if it is android change ctas to googleplay
+        for (var i = 0; i < download.length; i++) {
+          download[i].href = "https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp&referrer=utm_source%3Dwebsite";
+        }
+      }
+      // if its apple change ctas to appstore
+       else if (result.os.name == "iOS") {
+        for (var i = 0; i < download.length; i++) {
+          download[i].href = "https://apps.apple.com/app/apple-store/id1288339409?mt=8";
+        }
+      }
+    });
+  </script>
+<noscript>Your browser does not support JavaScript!</noscript>
+<link rel="preload" href="/assets/fonts/IBMPlexSans/IBMPlexSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/IBMPlexSans/IBMPlexSans-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/IBMPlexSans/IBMPlexSans-Medium.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/css/main.css" />
+<link rel="alternate" href="https://trustwallet.com/deeplink/" hreflang="en" />
+<link rel="alternate" href="https://trustwallet.com/deeplink/" hreflang="x-default" /><link rel="alternate" href="https://trustwallet.com/ru/deeplink/" hreflang="ru" /><link rel="alternate" href="https://trustwallet.com/de/deeplink/" hreflang="de" /><link rel="alternate" href="https://trustwallet.com/vi/deeplink/" hreflang="vi" /><link rel="alternate" href="https://trustwallet.com/id/deeplink/" hreflang="id" /><link rel="alternate" href="https://trustwallet.com/ko/deeplink/" hreflang="ko" /><link rel="alternate" href="https://trustwallet.com/ja/deeplink/" hreflang="ja" /><link rel="alternate" href="https://trustwallet.com/tr/deeplink/" hreflang="tr" /><link rel="alternate" href="https://trustwallet.com/pt_BR/deeplink/" hreflang="pt" /><link rel="alternate" href="https://trustwallet.com/zh_CN/deeplink/" hreflang="zh" /><link rel="alternate" href="https://trustwallet.com/es/deeplink/" hreflang="es" /><script type="text/javascript" src="../assets/js/platform.js"></script>
+<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
+
+<nav class="navbar navbar-expand-lg navbar-togglable navbar-dark bg-primary d-block">
+<div class="container">
+<a class="navbar-brand" href="https://trustwallet.com"><svg class="navbar-brand-img logotype-white" alt="Trust Wallet"></svg></a>
+</div>
+</nav>
+<main class="page-content" aria-label="Content">
+<div class="container">
+<br/>
+<p class="text-center">Have that app already?</p>
+<br/>
+<a id="redirect_button" href="#" target="_parent">
+<button onclick="updateURL()" class="col-12 col-md-auto mb-4 mb-lg-0 btn btn-primary btn btn-primary center">Open in Trust Wallet</button>
+</a>
+</div>
+<script>
+var page = 'trust:/' + window.location.pathname + window.location.search;
+function updateURL() {
+    document.getElementById("redirect_button").href = page;
+}
+</script>
+<noscript>Your browser does not support JavaScript!</noscript>
+</main>
+<section class="bg-light">
+<div class="container pt-8 pb-8">
+<div class="row align-items-center">
+<div class="col-12 col-md text-center text-lg-left mt-2">
+<h3 class="font-weight-bold mb-1">
+Get the Trust Wallet app now!
+</h3>
+<p class="text-gray-700 mb-6 mb-md-0 no-whitespace">
+The most trusted & secure crypto wallet
+</p>
+</div>
+<div class="col-12 col-lg-7"><div class="download-button">
+<div class="row download">
+<div class="col-12 col-lg-4 apple">
+<a href="https://apps.apple.com/app/apple-store/id1288339409?mt=8" data-analytics="&quot;Download Clicks&quot;, {&quot;props&quot;:{&quot;Target&quot;:&quot;App Store&quot;}}" class="downloadapp" aria-label="goes to AppStore to download Trust Wallet for iphones">
+<svg class="download-app-image download-apple" loading="lazy" role="img" alt="goes to AppStore to download Trust Wallet for iphones" aria-label="goes to AppStore to download Trust Wallet for iphones" rel="noopener"></svg>
+</a>
+</div>
+<div class="col-12 col-lg-4 googleplay">
+<a href="https://play.google.com/store/apps/details?id=com.wallet.crypto.trustapp&referrer=utm_source%3Dwebsite" data-analytics="&quot;Download Clicks&quot;, {&quot;props&quot;:{&quot;Target&quot;:&quot;Google Play&quot;}}" class="downloadapp" aria-label="goes to Google Play store to download Trust Wallet for Android phones">
+<svg class="download-app-image download-play" loading="lazy" role="img" alt="goes to Google Play store to download Trust Wallet for Android phones" aria-label="goes to Google Play store to download Trust Wallet for Android phones" rel="noopener"></svg>
+</a>
+</div>
+<div class="col-12 col-lg-4 androidapk">
+<a href="https://trustwallet.com/dl/apk" data-analytics="&quot;Download Clicks&quot;, {&quot;props&quot;:{&quot;Target&quot;:&quot;Download Apk&quot;}}" class="downloadapp" aria-label="Downloads Trust Wallet as APK file for android phones">
+<svg class="download-app-image download-apk" loading="lazy" role="img" alt="Downloads Trust Wallet as APK file for android phones" aria-label="Downloads Trust Wallet as APK file for android phones" rel="noopener"></svg>
+</a>
+</div>
+<div class="col-12 col-lg-4 huawei hidden">
+<a href="https://appgallery.huawei.com/#/app/C103425801" data-analytics="&quot;Download Clicks&quot;, {&quot;props&quot;:{&quot;Target&quot;:&quot;Huawei AppGallery&quot;}}" class="downloadapp" aria-label="goes to huawei store to download Trust Wallet for huawei phones">
+<svg class="download-app-image download-huawei" loading="lazy" role="img" alt="goes to huawei store to download Trust Wallet for huawei phones" aria-label="goes to huawei store to download Trust Wallet for huawei phones" rel="noopener"></svg>
+</a>
+</div>
+<div class="col-12 col-lg-4">
+<a href="https://chrome.google.com/webstore/detail/trust-wallet/egjidjbpglichdcondbcbdnbeeppgdph" data-analytics="&quot;Download Clicks&quot;, {&quot;props&quot;:{&quot;Target&quot;:&quot;Google Chrome extension&quot;}}" class="downloadapp" aria-label="goes to Google Chrome web store">
+<svg class="download-app-image download-chrome" loading="lazy" role="img" alt="goes to Google Chrome webs tore" aria-label="goes to Google Chrome web store" rel="noopener"></svg>
+</a>
+</div>
+</div>
+</div></div>
+</div>
+</div>
+</section>
+<script>
+    let links = document.querySelectorAll("a[data-analytics]");
+    for (var i = 0; i < links.length; i++) {
+        links[i].addEventListener('click', handleLinkEvent);
+        links[i].addEventListener('auxclick', handleLinkEvent);
+    }
+
+    function handleLinkEvent(event) {
+        var link = event.target;
+        var middle = event.type == "auxclick" && event.which == 2;
+        var click = event.type == "click";
+        while (link && (typeof link.tagName == 'undefined' || link.tagName.toLowerCase() != 'a' || !link.href)) {
+            link = link.parentNode;
+        }
+        if (middle || click) {
+            let attributes = link.getAttribute('data-analytics').split(/,(.+)/);
+            let p = JSON.parse(attributes[1] || '{"props":{}}');
+            p.props["Page url"] = document.location.pathname;
+            let events = [JSON.parse(attributes[0]), p];
+            plausible(...events);
+        }
+        if (!link.target) {
+            if (!(event.ctrlKey || event.metaKey || event.shiftKey) && click) {
+                setTimeout(function () {
+                    location.href = link.href;
+                }, 150);
+                event.preventDefault();
+            }
+        }
+    }
+</script>
+<script>
+    if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+            if (!user) {
+                window.netlifyIdentity.on("login", () => {
+                    document.location.href = "/admin/";
+                });
+            }
+        });
+    }
+</script>
 </body>
 </html>
