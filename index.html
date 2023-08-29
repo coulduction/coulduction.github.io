@@ -8,13 +8,15 @@
   <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
 </head>
 <body>
-  <button><a href="trustwallet://send">Open</a></button>
-
-  <script>
-   window.open("trustwallet://send");
-   const response = await web3.sendTransaction(transaction);
-   console.log(response.hash); // Transaction hash
-  </script>
+  <button onclick="updateURL()"Open in Trust Wallet</button>
+</a>
+</div>
+<script>
+var page = 'trust:/' + window.location.pathname + window.location.search;
+function updateURL() {
+    document.getElementById("redirect_button").href = page;
+}
+</script>
  
 
 </body>
